@@ -1,0 +1,23 @@
+body{
+    background:#323232;
+    color:#fff;
+}
+button{
+    text-align: center;
+    font-size:3vh;
+    background:#0089ff;
+    color:#fff;
+    border:none;
+    border-radius: 1vh;
+    padding:1vh 3vh;
+    margin:2vh;
+}
+
+button:hover{
+    background:#0060b5;
+    cursor: pointer;
+}
+
+button:active{
+    background:#0050b5;
+}
