@@ -4,8 +4,9 @@ console.log(p);
 console.log(s);
 
 var pa;
-var pasta = "";
+var pasta,past = "";
 
+for (var pas=1; t<20 pas++){
 for (var t=1; t<s; t++){
     p = Math.floor(Math.random() * 10);
     if(p <= 3){
@@ -17,7 +18,9 @@ for (var t=1; t<s; t++){
     else{
         pa = "お前";
     }
-    pasta = pasta + pa
-    console.log(pasta);
+    past = past + pa
+    console.log(past);
 }
+pasta = pasta + "/n" + past;
 document.getElementById('pasta').innerHTML = pasta;
+}
